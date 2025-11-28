@@ -73,7 +73,7 @@ bash scripts/gui/run_training.sh
 
 ## :sparkles: Overall view
 
-<img src="./assets/teaser_v7.png" >
+<img src="./assets/teaser_v7.png" width="70%">
 
 Comparison of existing GUI RL framework with our HCPO framework. HCPO jointly improves the sampling and update phases of training by integrating Dynamic Context Sampling **(DCS)** and Anchor-guided History Compression **(AHC)**.
 
