@@ -9,7 +9,7 @@
 <a>Xurui Zhou</a><sup>1</sup>,
 <a href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ">Gongwei Chen</a><sup>1</sup>,
 <a>Yuquan Xie</a><sup>1</sup>,
-<a href="https://scholar.google.com/citations?user=TDBF2UoAAAAJ">Zaijing Li</a><sup>2</sup>,
+<a href="https://scholar.google.com/citations?user=TDBF2UoAAAAJ">Zaijing Li</a><sup>1</sup>,
 <a href="https://jnhujnhu.github.io/">Kaiwen Zhou</a><sup>2</sup>,
 <br>
 <a>Shuai Wang</a><sup>2</sup>,
