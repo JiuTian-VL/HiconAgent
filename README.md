@@ -1,9 +1,7 @@
 <div align="center">
 
-<h2>
   <img src="./assets/hicon.png" height="28">
   <h2><b>HiconAgent: History Context-aware Policy Optimization for GUI Agents</b><h2>
-</h2>
 
 <p>
 <a>Xurui Zhou</a><sup>1</sup>,
