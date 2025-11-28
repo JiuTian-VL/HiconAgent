@@ -29,7 +29,7 @@
 <p>
   <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-deepgreen"></a>
   <a href="https://huggingface.co/datasets/Minuskid/HiconAgent-AMEX">
-    <img src="https://img.shields.io/badge/Data-HuggingFace-blue">
+    <img src="https://img.shields.io/badge/Data-HuggingFace-yellow">
   </a>
 </p>
 
