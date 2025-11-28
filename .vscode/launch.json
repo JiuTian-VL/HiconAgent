@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "7",
+            }
+        },        {
+            "name": "GUIR1-AITW-debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/mirage/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "4,5,6,7",
+                "VLLM_ATTENTION_BACKEND": "XFORMERS",
+                "VLLM_USE_V1": "0",
+            },
+            "args": [
+                "config=configs/rl/ui_tars_2b_grpo.yaml",
+                "data.train_files=/data7/Users/zxr/zhouxurui/GUI-dataset/HF/AndroidControl_700samples_qwen2_5vl_with_history_2images/data",
+                "data.val_files=/data7/Users/zxr/zhouxurui/GUI-dataset/HF/AndroidControl_700samples_qwen2_5vl_with_history_2images/data",
+                "data.system_prompt='You FIRST think about the reasoning process as an internal monologue and then provide the final action. The reasoning process MUST BE enclosed within <think> </think> tags. The final action MUST BE put in <action> </action> and MUST BE json format.'",
+                "worker.actor.model.model_path=/data7/Users/zxr/zhouxurui/Qwen2_5VL-modify/XYQNB",
+                "worker.rollout.limit_images=3",
+                "worker.actor.padding_free=false",
+                "worker.rollout.tensor_parallel_size=1",
+                "worker.reward.compute_score=gui-determ-grounding-1",
+                "worker.rollout.enable_chunked_prefill=false",
+                "trainer.experiment_name=V2_format_attempt_2his_compression_forward_loss_with_branch_KL",
+                "trainer.n_gpus_per_node=4",
+                "trainer.val_freq=-1",
+                "worker.actor.micro_batch_size_per_device_for_update=1",
+                "worker.actor.micro_batch_size_per_device_for_experience=1",
+                "trainer.val_before_train=false",
+                "trainer.logger=[\"console\"]",
+                "data.rollout_batch_size=4",
+                "worker.actor.global_batch_size=4",
+                "algorithm.use_compression=true"
+                    ]
+        }
+    ]
+}
