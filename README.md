@@ -1,29 +1,35 @@
 <div align="center">
-<h2 align="center">
-   <img src="./assets/hicon.png" style="vertical-align: middle; height: 1.5em; padding: 0 0.2em;"> <b>HiconAgent: History Context-aware Policy Optimization for GUI Agents
-   <br /> 
+
+<h2>
+  <img src="./assets/hicon.png" height="28">
+  <b>HiconAgent: History Context-aware Policy Optimization for GUI Agents</b>
 </h2>
-<div>
-<a target="_blank">Xurui&#160;Zhou</a><sup>1</sup>,
-<a target="_blank" href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ&hl=en&oi=ao">Gongwei&#160;Chen</a><sup>1</sup>,
-<a target="_blank">Yuquan&#160;Xie</a><sup>1</sup>,
-<a target="_blank" href="https://scholar.google.com/citations?hl=en&user=TDBF2UoAAAAJ">Zaijing&#160;Li</a><sup>2</sup>,
-<a target="_blank" href="https://jnhujnhu.github.io/">Kaiwen&#160;Zhou</a><sup>2</sup>,
+
+<p>
+<a>Xurui Zhou</a><sup>1</sup>,
+<a href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ">Gongwei Chen</a><sup>1</sup>,
+<a>Yuquan Xie</a><sup>1</sup>,
+<a href="https://scholar.google.com/citations?user=TDBF2UoAAAAJ">Zaijing Li</a><sup>2</sup>,
+<a href="https://jnhujnhu.github.io/">Kaiwen Zhou</a><sup>2</sup>,
 <br>
-<a target="_blank">Shuai&#160;Wang</a><sup>2</sup>,
-<a target="_blank" href="https://shuoyang-1998.github.io/">Shuo&#160;Yang</a><sup>1</sup>,
-<a target="_blank" href="https://scholar.google.com/citations?user=mEjhz-IAAAAJ&hl=zh-CN">Zhuotao&#160;Tian</a><sup>1</sup>,
-<a target="_blank" href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ&hl=en&oi=ao">Rui&#160;Shao</a><sup>1&#9993</sup>,
-</div>
-<sup>1</sup>Harbin Institute of Technology, Shenzhen&#160&#160&#160</span>
-<sup>2</sup>Huawei Noah’s Ark Lab</span>
-<br />
-<sup>&#9993&#160;</sup>Corresponding author&#160;&#160;</span>
-<br/>
-<div align="center">
-    <a href="" target="_blank">
-    <img src="https://img.shields.io/badge/Paper-arXiv-deepgreen" alt="Paper arXiv"></a>
-</div>
+<a>Shuai Wang</a><sup>2</sup>,
+<a href="https://shuoyang-1998.github.io/">Shuo Yang</a><sup>1</sup>,
+<a href="https://scholar.google.com/citations?user=mEjhz-IAAAAJ">Zhuotao Tian</a><sup>1</sup>,
+<a href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ">Rui Shao</a><sup>1</sup>
+<sup>&#9993;</sup>
+</p>
+
+<p>
+<sup>1</sup> Harbin Institute of Technology, Shenzhen &nbsp;&nbsp;&nbsp;
+<sup>2</sup> Huawei Noah’s Ark Lab
+</p>
+
+<p><sup>&#9993;</sup> Corresponding author</p>
+
+<p>
+  <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-deepgreen"></a>
+</p>
+
 </div>
 
 ## :new: Updates
@@ -93,10 +99,12 @@ Even if rich visual information is retained, later layers cannot directly extrac
 Overview of our history context-aware optimization framework for building HiconAgent. HCPO improves both the sampling and update phases of policy optimization by incorporating two key components: (1) **Dynamic Context Sampling (DCS)**, which introduces varied history lengths during training to encourage context-effective decision-making, and (2) **Anchor-guided History Compression (AHC)**, which adopts a dual-branch architecture where both branches share sampled responses and group-wise advantages. The compressed branch is trained using policy gradients, aligned with the uncompressed branch via a history-enhanced alignment loss. 
 
 ## :smile_cat: Evaluation results
-<div style="display: flex; gap: 10px; align-items: flex-start;">
-  <img src="./assets/table1.png" alt="Table 1" style="height: auto; max-height: 250px;">
-  <img src="./assets/table2.png" alt="Table 2" style="height: auto; max-height: 250px;">
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/table1.png" alt="Table 1" width="420"></td>
+    <td><img src="./assets/table2.png" alt="Table 2" width="420"></td>
+  </tr>
+</table>
 
 
 ## Acknowledgement
