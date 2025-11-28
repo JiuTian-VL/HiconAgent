@@ -2,7 +2,7 @@
 
 <h2>
   <img src="./assets/hicon.png" height="28">
-  <b>HiconAgent: History Context-aware Policy Optimization for GUI Agents</b>
+  <b>HiconAgent: History Context-aware Policy Optimization for GUI Agents
 </h2>
 
 <p>
