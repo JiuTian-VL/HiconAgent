@@ -31,7 +31,7 @@
   <a href="https://huggingface.co/datasets/Minuskid/HiconAgent-AMEX">
     <img src="https://img.shields.io/badge/Data-HuggingFace-yellow">
   </a>
-  <a href="HiconAgent.github.io">
+  <a href="https://jiutian-vl.github.io/HiconAgent.github.io">
     <img src="https://img.shields.io/badge/Project-Page-blue">
   </a>
 </p>
