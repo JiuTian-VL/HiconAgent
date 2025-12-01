@@ -26,6 +26,12 @@
 
 <p><sup>&#9993;</sup> Corresponding author</p>
 
+<style>
+  a {
+    text-decoration: none;
+  }
+</style>
+
 <p>
   <a href=""><img src="https://img.shields.io/badge/Paper-arXiv-deepgreen"></a>
   <a href="https://huggingface.co/datasets/Minuskid/HiconAgent-AMEX">
