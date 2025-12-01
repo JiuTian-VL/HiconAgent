@@ -52,6 +52,8 @@ source .venv/bin/activate
 # third install EasyR1
 cd EasyR1
 uv pip install -e .
+cd ..
+pip install -r requirements.txt
 ```
 
 - Install vllm-0.7.4-nightly to avoid OOM
