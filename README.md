@@ -26,21 +26,9 @@
 
 <p><sup>&#9993;</sup> Corresponding author</p>
 
-<style>
-  a {
-    text-decoration: none;
-  }
-</style>
-
-<p>
-  <a href=""><img src="https://img.shields.io/badge/Paper-arXiv-deepgreen"></a>
-  <a href="https://huggingface.co/datasets/Minuskid/HiconAgent-AMEX">
-    <img src="https://img.shields.io/badge/Data-HuggingFace-yellow">
-  </a>
-  <a href="https://jiutian-vl.github.io/HiconAgent.github.io/">
-    <img src="https://img.shields.io/badge/Project-Page-blue">
-  </a>
-</p>
+[![Paper](https://img.shields.io/badge/Paper-arXiv-deepgreen)](#)
+[![Data](https://img.shields.io/badge/Data-HuggingFace-yellow)](https://huggingface.co/datasets/Minuskid/HiconAgent-AMEX)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://jiutian-vl.github.io/HiconAgent.github.io/)
 
 </div>
 
