@@ -26,7 +26,7 @@
 
 <p><sup>&#9993;</sup> Corresponding author</p>
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-deepgreen)](#)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-deepgreen)](https://arxiv.org/abs/2512.01763)
 [![Data](https://img.shields.io/badge/Data-HuggingFace-yellow)](https://huggingface.co/datasets/Minuskid/HiconAgent-AMEX)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://jiutian-vl.github.io/HiconAgent.github.io/)
 
