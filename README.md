@@ -47,7 +47,7 @@ source .venv/bin/activate
 cd EasyR1
 uv pip install -e .
 cd ..
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 - Install vllm-0.7.4-nightly to avoid OOM
@@ -57,7 +57,7 @@ uv pip install --no-cache-dir vllm --pre --extra-index-url "https://wheels.vllm.
 git clone https://github.com/XuRui314/vllm.git
 cp -r vllm/vllm/ .venv/lib/python3.11/site-packages
 rm -rf vllm
-pip install flash-attn==2.7.3
+uv pip install flash-attn==2.7.3
 ```
 
 Download Qwen2.5VL and modify the config.json file:
