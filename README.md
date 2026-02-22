@@ -36,6 +36,8 @@
 
 - [11/2025] :fire: We release the code. Enjoy it!
 
+- [02/2026] :fire: HiconAgent is accepted to CVPR 2026!
+
 ## Install Dependencies
 ```shell
 # first install uv
