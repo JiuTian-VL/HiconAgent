@@ -62,7 +62,7 @@ rm -rf vllm
 uv pip install flash-attn==2.7.3
 ```
 
-Download Qwen2.5VL and modify the config.json file:
+Download Qwen2.5VL and modify the config.json file and rename the entire folder to XYQVL.
 ```shell
   "architectures": [
     "XYQForConditionalGeneration"

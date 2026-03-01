@@ -62,4 +62,4 @@ skip-magic-trailing-comma = false
 line-ending = "auto"
 
 [[tool.uv.index]]
-url = "http://10.120.48.20:8081/repository/pypi-hkust/simple" # 清华源
+url = "https://pypi.tuna.tsinghua.edu.cn/simple" # 清华源
