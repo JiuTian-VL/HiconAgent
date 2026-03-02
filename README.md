@@ -54,6 +54,7 @@ uv pip install -r requirements.txt
 
 - Install vllm-0.7.4-nightly to avoid OOM
 ```shell
+uv pip uninstall vllm
 export VLLM_COMMIT=227578480d71fc94ef46ca77fb69496412158d68
 uv pip install --no-cache-dir vllm --pre --extra-index-url "https://wheels.vllm.ai/${VLLM_COMMIT}"
 git clone https://github.com/XuRui314/vllm.git
