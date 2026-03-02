@@ -28,3 +28,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m mirage.main \
     algorithm.use_compression=true \
     worker.rollout.n=8 \
     worker.rollout.limit_images=3 \
+    trainer.record_logs=save_logs
