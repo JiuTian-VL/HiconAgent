@@ -10,18 +10,19 @@
 <a href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ">Gongwei Chen</a><sup>1</sup>,
 <a>Yuquan Xie</a><sup>1</sup>,
 <a href="https://scholar.google.com/citations?user=TDBF2UoAAAAJ">Zaijing Li</a><sup>1</sup>,
-<a href="https://jnhujnhu.github.io/">Kaiwen Zhou</a><sup>2</sup>,
+<a href="https://jnhujnhu.github.io/">Kaiwen Zhou</a><sup>3</sup>,
 <br>
-<a>Shuai Wang</a><sup>2</sup>,
+<a>Shuai Wang</a><sup>3</sup>,
 <a href="https://shuoyang-1998.github.io/">Shuo Yang</a><sup>1</sup>,
 <a href="https://scholar.google.com/citations?user=mEjhz-IAAAAJ">Zhuotao Tian</a><sup>1</sup>,
-<a href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ">Rui Shao</a><sup>1</sup>
+<a href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ">Rui Shao</a><sup>1,2</sup>
 <sup>&#9993;</sup>
 </p>
 
 <p>
 <sup>1</sup> Harbin Institute of Technology, Shenzhen &nbsp;&nbsp;&nbsp;
-<sup>2</sup> Huawei Noah’s Ark Lab
+<sup>2</sup> Shenzhen Loop Area Institute
+<sup>3</sup> Huawei Noah’s Ark Lab
 </p>
 
 <p><sup>&#9993;</sup> Corresponding author</p>
