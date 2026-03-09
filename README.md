@@ -20,8 +20,8 @@
 </p>
 
 <p>
-<sup>1</sup> Harbin Institute of Technology, Shenzhen &nbsp;&nbsp;&nbsp;
-<sup>2</sup> Shenzhen Loop Area Institute &nbsp;&nbsp;&nbsp;
+<sup>1</sup> Harbin Institute of Technology, Shenzhen&nbsp;&nbsp;&nbsp;
+<sup>2</sup>Shenzhen Loop Area Institute &nbsp;&nbsp;&nbsp;
 <sup>3</sup> Huawei Noah’s Ark Lab
 </p>
 
